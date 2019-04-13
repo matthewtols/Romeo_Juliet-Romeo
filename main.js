@@ -1,44 +1,30 @@
 // TITLE
 
-// document.addEventListener("keydown", checkkeys)
-// function checkkeys(event) {
-//     console.log(event.keyCode)
-//     if (event.keyCode == 82) {
-//         document.getElementById("ss1").innerHTML = "Romeo"
-//         document.getElementById("ss2").innerHTML = "Rest of the Montagues"
-//         document.getElementById("ss3").innerHTML = "Rest of the Capulets"
-//     }
-//     if (event.keyCode == 69) {
-//         document.getElementById("ss1").innerHTML = "Rest of the Montagues"
-//         document.getElementById("ss2").innerHTML = "Rest of the Capulets"
-//         document.getElementById("ss3").innerHTML = ""
-//     }
-// }
 
 setInterval(searchsuggest, 10)
 
 function searchsuggest() {
     var essay = document.getElementById("searchbar").value.toLowerCase()
     if (essay == "r") {
-        document.getElementById("ss1").innerHTML = "<a>Romeo</a>"
-        document.getElementById("ss2").innerHTML = "<a>Rest of the Montagues</a>"
-        document.getElementById("ss3").innerHTML = "<a>Rest of the Capulets</a>"
+        document.getElementById("ss1").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Romeo/'>Romeo</a>"
+        document.getElementById("ss2").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Montagues/'>Rest of the Montagues</a>"
+        document.getElementById("ss3").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Capulets/'>Rest of the Capulets</a>"
         document.getElementById("ss4").innerHTML = ""
         document.getElementById("ss5").innerHTML = ""
     } else if (essay == "re" || essay == "l") {
-        document.getElementById("ss1").innerHTML = "<a>Rest of the Capulets</a>"
-        document.getElementById("ss2").innerHTML = "<a>Rest of the Montagues</a>"
+        document.getElementById("ss1").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Capulets/'>Rest of the Capulets</a>"
+        document.getElementById("ss2").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Montagues/'>Rest of the Montagues</a>"
         document.getElementById("ss3").innerHTML = ""
         document.getElementById("ss4").innerHTML = ""
         document.getElementById("ss5").innerHTML = ""
     } else if (essay == "rest of the c" || essay == "c" || essay == "lady c") {
-        document.getElementById("ss1").innerHTML = "<a>Rest of the Capulets</a>"
+        document.getElementById("ss1").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Capulets/'>Rest of the Capulets</a>"
         document.getElementById("ss2").innerHTML = ""
         document.getElementById("ss3").innerHTML = ""
         document.getElementById("ss4").innerHTML = ""
         document.getElementById("ss5").innerHTML = ""
     } else if (essay == "rest of the m" || essay == "lady m") {
-        document.getElementById("ss1").innerHTML = "<a>Rest of the Montagues</a>"
+        document.getElementById("ss1").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Montagues/'>Rest of the Montagues</a>"
         document.getElementById("ss2").innerHTML = ""
         document.getElementById("ss3").innerHTML = ""
         document.getElementById("ss4").innerHTML = ""
@@ -50,13 +36,13 @@ function searchsuggest() {
         document.getElementById("ss4").innerHTML = ""
         document.getElementById("ss5").innerHTML = ""
     } else if (essay == "p") {
-        document.getElementById("ss1").innerHTML = "<a>Paris</a>"
-        document.getElementById("ss2").innerHTML = "<a>Prince</a>"
+        document.getElementById("ss1").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Paris/'>Paris</a>"
+        document.getElementById("ss2").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Prince/'>Prince</a>"
         document.getElementById("ss3").innerHTML = ""
         document.getElementById("ss4").innerHTML = ""
         document.getElementById("ss5").innerHTML = ""
     } else if (essay == "ro") {
-        document.getElementById("ss1").innerHTML = "<a>Romeo</a>"
+        document.getElementById("ss1").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Romeo/'>Romeo</a>"
         document.getElementById("ss2").innerHTML = ""
         document.getElementById("ss3").innerHTML = ""
         document.getElementById("ss4").innerHTML = ""
@@ -99,7 +85,7 @@ function searchsuggest() {
         document.getElementById("ss5").innerHTML = ""
     } else if (essay == "m") {
         document.getElementById("ss1").innerHTML = "<a>Mercutio</a>"
-        document.getElementById("ss2").innerHTML = "<a>Rest of the Montagues</a>"
+        document.getElementById("ss2").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Montagues/'>Rest of the Montagues</a>"
         document.getElementById("ss3").innerHTML = ""
         document.getElementById("ss4").innerHTML = ""
         document.getElementById("ss5").innerHTML = ""
@@ -116,7 +102,7 @@ function searchsuggest() {
         document.getElementById("ss4").innerHTML = ""
         document.getElementById("ss5").innerHTML = ""
     } else if (essay == "n") {
-        document.getElementById("ss1").innerHTML = "<a>Nurse</a>"
+        document.getElementById("ss1").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Nurse/'>Nurse</a>"
         document.getElementById("ss2").innerHTML = ""
         document.getElementById("ss3").innerHTML = ""
         document.getElementById("ss4").innerHTML = ""
@@ -134,7 +120,7 @@ function searchsuggest() {
         document.getElementById("ss4").innerHTML = ""
         document.getElementById("ss5").innerHTML = ""
     } else if (essay == "mo") {
-        document.getElementById("ss1").innerHTML = "<a>Rest of the Montagues</a>"
+        document.getElementById("ss1").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Montagues/'>Rest of the Montagues</a>"
         document.getElementById("ss2").innerHTML = ""
         document.getElementById("ss3").innerHTML = ""
         document.getElementById("ss4").innerHTML = ""
@@ -146,13 +132,13 @@ function searchsuggest() {
         document.getElementById("ss4").innerHTML = ""
         document.getElementById("ss5").innerHTML = ""
     } else if (essay == "pa") {
-        document.getElementById("ss1").innerHTML = "<a>Paris</a>"
+        document.getElementById("ss1").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Paris/'>Paris</a>"
         document.getElementById("ss2").innerHTML = ""
         document.getElementById("ss3").innerHTML = ""
         document.getElementById("ss4").innerHTML = ""
         document.getElementById("ss5").innerHTML = ""
     } else if (essay == "pr") {
-        document.getElementById("ss1").innerHTML = "<a>Prince</a>"
+        document.getElementById("ss1").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Prince/'>Prince</a>"
         document.getElementById("ss2").innerHTML = ""
         document.getElementById("ss3").innerHTML = ""
         document.getElementById("ss4").innerHTML = ""
