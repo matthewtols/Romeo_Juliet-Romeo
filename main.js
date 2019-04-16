@@ -1,7 +1,7 @@
 // TITLE
 
 
-setInterval(searchsuggest, 10)
+var searchsuggester = setInterval(searchsuggest, 10)
 
 function searchsuggest() {
     var essay = document.getElementById("searchbar").value.toLowerCase()
