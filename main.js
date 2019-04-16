@@ -160,7 +160,7 @@ function searchsuggest() {
         document.getElementById("ss5").innerHTML = ""
         clearInterval(searchsuggester)
     } else if (essay == "pr") {
-        document.getElementById("ss1").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Prince/'>Prince</a>"
+        document.getElementById("ss1").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Prince'>Prince</a>"
         document.getElementById("ss2").innerHTML = ""
         document.getElementById("ss3").innerHTML = ""
         document.getElementById("ss4").innerHTML = ""
