@@ -39,7 +39,6 @@ function searchsuggest() {
         document.getElementById("ss3").innerHTML = ""
         document.getElementById("ss4").innerHTML = ""
         document.getElementById("ss5").innerHTML = ""
-        var searchsuggester = setInterval(searchsuggest, 10)
     } else if (essay == "p") {
         document.getElementById("ss1").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Paris/'>Paris</a>"
         document.getElementById("ss2").innerHTML = "<a href='https://matthewtols.github.io/Romeo_Juliet-Prince/'>Prince</a>"
